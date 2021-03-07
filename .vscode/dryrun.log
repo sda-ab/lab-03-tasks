@@ -1,9 +1,0 @@
-make.exe --dry-run --keep-going --print-directory
-"make.exe": Entering directory `/d/Projects/Github/SDA/lab-03-tasks'
-rm -rf ./build/
-mkdir ./build/
-cd ./src &&\
-	make build-lib
- 
-"make.exe": Leaving directory `/d/Projects/Github/SDA/lab-03-tasks'
- 
