@@ -1,0 +1,365 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i686-pc-msys
+ 
+"make.exe": *** No rule to make target `all'.  Stop.
+ 
+
+# Make data base, printed on Sun Mar  7 19:46:14 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+ 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /d/Projects/Github/SDA/lab-03-tasks
+# default
+SHELL := /bin/sh
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# makefile (from `makefile', line 2)
+CFLAGS = -g -Wall
+# environment
+ONEDRIVE = D:\Documents\OneDrive - Universitatea Politehnica Bucuresti
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\gabriel.rusu\AppData\Roaming\Code\CachedData\f30a9b73e8ffc278e71575118b6bf568f04587c8
+# environment
+TMP = /tmp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-69af8d64-d967-4dd5-99fb-09447f0628fc-sock
+# environment
+VSCODE_CWD = C:\Users\gabriel.rusu\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = /c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/c/Python38/Scripts/:/c/Python38/:/c/Program Files/Common Files/Oracle/Java/javapath:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/Git/cmd:/c/Program Files/Maven/bin:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files/nodejs/:/c/ProgramData/chocolatey/bin:/c/Program Files/Polyspace/R2020a/runtime/win64:/c/Program Files/Polyspace/R2020a/bin:/c/Program Files/Polyspace/R2020a/polyspace/bin:/c/Program Files/dotnet/:/c/Program Files/Gradle/bin:/c/ProgramData/Microsoft/Windows/Start Menu/Programs/GNU Octave 6.1.0:/c/Program Files/Go/bin:/mingw/bin:/usr/bin:/c/Program Files/CMake/bin:/c/Program Files/Git LFS:/c/Users/gabriel.rusu/AppData/Local/Microsoft/WindowsApps:/c/Users/gabriel.rusu/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/gabriel.rusu/AppData/Local/hyper/app-3.0.2/resources/bin:/c/Users/gabriel.rusu/AppData/Roaming/npm:/c/Users/gabriel.rusu/AppData/Local/GitHubDesktop/bin:/c/Users/gabriel.rusu/.dotnet/tools:/c/Program Files/heroku/bin:/c/Users/gabriel.rusu/go/bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+GIT_LFS_PATH = C:\Program Files\Git LFS
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132463975257865111
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\gabriel.rusu
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\gabriel.rusu\go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22912_EQQQTEUHGMLLSJSI
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = LEGION-5
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+USERDNSDOMAIN = curs.pub.ro
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = gabriel.rusu
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\LEGION-5
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = PUB
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# environment
+!D: = d:\Projects\Github\SDA\lab-03-tasks
+# makefile (from `makefile', line 1)
+CC = gcc
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-15
+# environment
+ONEDRIVECOMMERCIAL = D:\Documents\OneDrive - Universitatea Politehnica Bucuresti
+# makefile (from `makefile', line 5)
+BUILD_FOLDER_PATH = ./build/
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := build
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+OCTAVE = C:\Windows\system32\wscript.exe "C:\Program Files\GNU Octave\Octave-6.1.0\octave.vbs" --no-gui
+# environment
+LOCALAPPDATA = C:\Users\gabriel.rusu\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := "make.exe"
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\83e18e57446d43e38f71138d8a7e4668-1.54.1-main-sock
+# environment
+HOMEPATH = \Users\gabriel.rusu
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\gabriel.rusu\AppData\Roaming
+# environment
+TEMP = /tmp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `makefile', line 4)
+EXECUTABLE = program
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# makefile (from `makefile', line 3)
+FLAGS = -g -Wall -o
+# environment
+PROCESSOR_REVISION = 6001
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# environment
+MAKELEVEL := 0
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+TERM = cygwin
+# environment
+PT7HOME = C:\Program Files\Cisco Packet Tracer 7.3.1
+# environment
+VSCODE_PID = 22912
+# environment
+USERDOMAIN_ROAMINGPROFILE = PUB
+# variable set hash-table stats:
+# Load=105/1024=10%, Rehash=0, Collisions=9/130=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 24720, inode 280785): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 12):
+	cd ./tests &&\
+	make test
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2021-03-07 19:45:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+ 
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build: build-dir
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 8):
+	cd ./src &&\
+	make build-lib
+	
+
+test-c3: build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 24):
+	cd ./tests &&\
+	make test-c3
+	
+
+single-run: build-dir
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 31):
+	cd ./src &&\
+	make run
+	
+
+build-dir: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 28):
+	mkdir $(BUILD_FOLDER_PATH)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 35):
+	rm -rf $(BUILD_FOLDER_PATH)
+	
+
+test-c1: build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 16):
+	cd ./tests &&\
+	make test-c1
+	
+
+test-c2: build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 20):
+	cd ./tests &&\
+	make test-c2
+	
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/30=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Mar  7 19:46:14 2021
+
+ 

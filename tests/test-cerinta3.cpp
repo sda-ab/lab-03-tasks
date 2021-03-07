@@ -6,6 +6,7 @@ TEST_CASE("Cerinta 3: Jocul lui Joseph cu p = 2")
     std::vector<childNode> reversedData(data.rbegin(), data.rend());
     childNode *list = studentGameTaskSetup(TASK3_TEST_FILENAME);
     int p = 2;
+    REQUIRE(isNotNull(list));
 
     SECTION("Lista are numarul corect de elemente ?")
     {
