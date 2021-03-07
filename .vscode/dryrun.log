@@ -4,5 +4,6 @@ rm -rf ./build/
 mkdir ./build/
 cd ./src &&\
 	make build-lib
+ 
 "make.exe": Leaving directory `/d/Projects/Github/SDA/lab-03-tasks'
  
