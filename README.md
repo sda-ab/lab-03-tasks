@@ -10,9 +10,9 @@
 
 #### Puteti afla mai multe legat de modul de lucru [aici](https://github.com/sda-ab/student-setup#indicatii-rezolvare-laborator)
 
-### Observatii teste:
-- Comanda **make test** va rula toate testele.
-- Comanda **make test-cX** (unde **X** e nr cerintei: **1,2,3**) va rula doar testele pentru cerinta **X**
-
-### Observatii implementare:
-- elementele in toate listele vor fi adaugate la inceputul acesteia
+### Observatii 
+- teste:
+  - Comanda **make test** va rula toate testele.
+  - Comanda **make test-cX** (unde **X** e nr cerintei: **1,2,3**) va rula doar testele pentru cerinta **X**
+- implementare:
+  - elementele in toate listele vor fi adaugate la inceputul acesteia
